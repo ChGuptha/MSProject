@@ -1,0 +1,104 @@
+.app-headings div{
+border-style: solid;
+border-radius: 1 px;
+border-width: 0.06em; 
+}
+.app-headings div{
+  padding: 14px 9px;
+  font-weight: 600;
+}
+
+.left-charts{ 
+  padding-top: 30%;
+  text-align: center; 
+  height: 280px;   
+}
+
+.chart-text{ 
+  position: absolute;
+  bottom: 10%;
+  right: 0%; 
+}
+.app-rows-one div.h-v, .app-rows-two div.h-v {
+  padding-left: 0;
+  padding-right: 0; 
+  border-color: transparent;
+
+}
+.app-rows-one > div, .app-rows-two > div, .app-rows-two div.h-v{
+  border-width: 0.06em;
+  border-style: solid;
+  border-color: rgb(50, 20, 90);
+}
+.app-rows-two > div{
+  border-color: rgb(180, 1, 158);
+}
+.sbl { 
+  border-bottom-color: white;
+  border-left-color: white;
+}
+.bottom-align-text {
+  position: absolute;
+  bottom: 10%;
+  right: 0%;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    height: 280px;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgb(0, 0, 0);
+    opacity :0.6;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .4s ease;
+  }
+  .overlay-o {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgb(50, 20, 90);
+    opacity :0.6;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .4s ease;
+  }
+  .overlay-s {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgb(180, 1, 158);
+    opacity :0.6;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .4s ease;
+  }
+  
+  
+  .img-container:hover .overlay-o,
+  .img-container:hover .overlay-s {
+    height: 41%;
+  }
+  
+  .text-hover {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  
+  } 

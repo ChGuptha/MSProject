@@ -1,0 +1,29 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {    
+    "document-list-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/documentListView/DocumentListViewWebPart.js",
+          "manifest": "./src/webparts/documentListView/DocumentListViewWebPart.manifest.json"
+        }
+      ]
+    },
+    "practice-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/practicePage/PracticePageWebPart.js",
+          "manifest": "./src/webparts/practicePage/PracticePageWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CustomTilesViewWpWebPartStrings": "lib/webparts/customTilesViewWp/loc/{locale}.js",
+    "DocumentListViewWebPartStrings": "lib/webparts/documentListView/loc/{locale}.js",
+    "PracticePageWebPartStrings": "lib/webparts/practicePage/loc/{locale}.js",
+    "CustomTilesWebPartStrings": "lib/webparts/customTiles/loc/{locale}.js"
+  }
+}

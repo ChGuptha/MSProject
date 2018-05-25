@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "tiles-web-part",
+    "libraryId": "1ffac355-84b1-4698-863a-f9462fef46a5",
+    "environment": "spo"
+  }
+}

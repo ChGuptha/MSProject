@@ -1,0 +1,1 @@
+{"version":3,"sources":["webparts/practicePage/models/PlayImageOrLink.ts"],"names":[],"mappings":";;AAAA;IAAA;IAGA,CAAC;IAAD,sBAAC;AAAD,CAHA,AAGC,IAAA;AAHY,0CAAe","file":"webparts/practicePage/models/PlayImageOrLink.js","sourcesContent":["export class PlayImageOrLink{\n    Url: string;\n    Description: string;   \n}"],"sourceRoot":"..\\..\\..\\..\\src"}

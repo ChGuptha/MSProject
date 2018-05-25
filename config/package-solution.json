@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "custom-tiles-view-wp-client-side-solution",
+    "id": "cea9cdbd-2b2d-4b80-ba1a-12962fa22f06",
+    "version": "1.0.0.3",    
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/custom-tiles-view-wp.sppkg"
+  }
+}
